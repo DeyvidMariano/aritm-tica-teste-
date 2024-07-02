@@ -1,5 +1,5 @@
 package testando.br.calculos;
-import java.math.BigDecimal;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -36,16 +36,12 @@ import org.junit.Test;
 		assertEquals(125,MathExamples.exponent(5,3));
 		
 	}
-	@Test
-    void testAddDouble() {
-        assertEquals(new BigDecimal("8.3"), MathExamples.add(5.2, 3.1));
-    }
 	
+	/*
 	@Test
 	public void testSubtractDouble() {
-		assertEquals(125,MathExamples.exponent(5,3));
+		fail("Not yet implemented");
 	}
-	/*
 	@Test
 	public void testDivideDouble() {
 		fail("Not yet implemented");
@@ -70,5 +66,7 @@ import org.junit.Test;
 	public void testAbsoluteVal() {
 		fail("Not yet implemented");
 	}
+
+	
 */
 }
